@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Navbar/navbar.css';
+import '../Navbar/navbar.scss';
 import Logo from '../../assets/images/dnc-logo.png';
 import Cart from '../../assets/images/cart.png';
 import Search  from '../../assets/images/search.png';
@@ -12,8 +12,12 @@ const Navbar = () => {
         <div className="nav">
             <img className='logo' src={Logo} alt="" />
             
-           
-            <input className='input' type="search" name="search" id="" placeholder='O que você está procurando?'/>
+          <div className='navbar__search'>
+            <img className='navbar__img' src={Search} alt="" />
+            <input className='input' type="text" placeholder='O que você está procurando?'/>
+
+          </div>
+            
             
             <a href=""><img className='cart' src={Cart} alt="" /></a>
             
@@ -26,11 +30,10 @@ const Navbar = () => {
                 <li><a href="">Video Games</a></li>
                 <li><a href="">Mesas Gamer</a></li>
                 <li><a href="">Promoções</a></li>
-                <li><a href="">Atendimento</a></li>
+                <li><a href="https://www.google.com.br">Atendimento</a></li>
             </ul>
         </div>
-
-    </div>
+      </div>
   )
 }
 

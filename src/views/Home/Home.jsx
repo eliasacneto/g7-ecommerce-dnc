@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
-import '../Home/home.css'
+import '../Home/home.scss'
 
 export function Home(){
   return(<>
