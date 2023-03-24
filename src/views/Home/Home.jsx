@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
-import Banner from "../../components/Banner/Banner";
-import "./index.scss";
+import Navbar from "../../components/Navbar/Navbar";
+import '../Home/home.scss'
 
-const Home = () => {
-  return (
-    <section className="section-home">
-      <div className="banner">
-        <Banner />
-      </div>
-      <h1>We have to develop the Home Page</h1>
-      <button><Link to={`/products`}>Ir para produtos</Link></button>
-      <button><Link to={`/`}>Voltar</Link></button>
-    </section>
+export function Home(){
+  return(<>
+  <Navbar />
+  <section className="section-home">
+  <h1>Home Page</h1>
+  <button><Link to={`/`}>Voltar</Link></button>
+
+
+    <Footer />
+  </>
   )
 }
 export default Home
