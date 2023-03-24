@@ -1,0 +1,27 @@
+@use "../../sass/variables" as *;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.section-footer {
+    padding: 20px;
+    background-color: $blue-dnc;
+    width: 100vw;
+    height: 134px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    // font-family: 'Raleway', sans-serif;
+
+    img {
+        padding-bottom: 35px;
+    }
+}

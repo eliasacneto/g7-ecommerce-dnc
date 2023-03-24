@@ -3,8 +3,12 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.scss";
 import Login from "./views/Login/Login";
+import Footer from "./components/Footer/Footer";
+import "./index.scss";
 
-import { Home } from "./views/Home/Home";
+import Home from "./views/Home/Home";
+import Login from "./views/Login/Login";
+import Products from "./views/Products/Products";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
   },
 ]);
 

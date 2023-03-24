@@ -10,6 +10,8 @@ export function Home(){
   <button><Link to={`/`}>Voltar</Link></button>
 
 
-  </section>
-  </>);
+    <Footer />
+  </>
+  )
 }
+export default Home
