@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.scss";
+import Login from "./views/Login/Login";
 import Footer from "./components/Footer/Footer";
 import "./index.scss";
 
