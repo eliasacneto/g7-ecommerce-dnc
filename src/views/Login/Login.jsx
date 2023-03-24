@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <>
       <nav className='nav-login'>
-        <img className='nav-logo' src={Logo} alt='logotipo da DNC Store' />
+        <img className='nav-logo' src={ Logo } alt='logotipo da DNC Store' />
       </nav>
       <section className='login-info'>
         <h1 className='login-title'>Acesse com seu login ou cadastre-se!</h1>

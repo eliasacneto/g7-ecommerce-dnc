@@ -1,17 +1,23 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
-import '../Home/home.scss'
+import Banner from "../../components/Banner/Banner";
+import Footer from "../../components/Footer/Footer";
+import "./index.scss";
 
-export function Home(){
-  return(<>
-  <Navbar />
-  <section className="section-home">
-  <h1>Home Page</h1>
-  <button><Link to={`/`}>Voltar</Link></button>
+const Home = () => {
+  return (
+    <>
+      <Navbar />
+      <Banner />
+      <section className="section-home">
+        <h1>Adicionar listagem de produtos aqui</h1>
+        
+          <Link to={`/`}><button className="dnc-btn">Voltar</button></Link>
+        
+      </section>
+      <Footer />
+    </>
+  );
+};
 
-
-    <Footer />
-  </>
-  )
-}
-export default Home
+export default Home;
