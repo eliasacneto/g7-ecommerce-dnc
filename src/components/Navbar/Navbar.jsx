@@ -1,40 +1,50 @@
-import React from 'react';
-import '../Navbar/navbar.scss';
-import Logo from '../../assets/images/dnc-logo.png';
-import Cart from '../../assets/images/cart.png';
-import Search  from '../../assets/images/search.png';
-import Menu from '../../assets/images/menu.png';
-
+import "./index.scss";
+import Logo from "../../assets/images/dnc-logo.png";
+import Cart from "../../assets/images/cart.png";
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-        <div className="nav">
-            <img className='logo' src={Logo} alt="" />
-            
-          <div className='navbar__search'>
-            <img className='navbar__img' src={Search} alt="" />
-            <input className='input' type="text" placeholder='O que você está procurando?'/>
+    <nav className="header__menu">
+      <div className="menu__search">
+        <img className="logo" src={Logo} alt="dnc-logo" />
 
-          </div>
-            
-            
-            <a href=""><img className='cart' src={Cart} alt="" /></a>
-            
-        </div>
 
-        <div id='itens' className='list'>
-            <ul>
-                <li><a href="">Novidades</a></li>
-                <li><a href="">Jogos</a></li>
-                <li><a href="">Video Games</a></li>
-                <li><a href="">Mesas Gamer</a></li>
-                <li><a href="">Promoções</a></li>
-                <li><a href="https://www.google.com.br">Atendimento</a></li>
-            </ul>
-        </div>
+          <input className="search-bar"
+            type="text"
+            id="search"
+            name="name"
+            placeholder="O que você está procurando?"
+          />
+          <img className="cart" src={Cart} alt="carrinho de compras" />
+
+
+
       </div>
-  )
-}
 
-export default Navbar
+      <div className="menu__nav">
+        <ul className="menu__nav__list">
+          <li className="menu__nav__list__item">
+            <a href="#">Novidades</a>
+          </li>
+          <li className="menu__nav__list__item">
+            <a href="#">Jogos</a>
+          </li>
+          <li className="menu__nav__list__item">
+            <a href="#">Video Games</a>
+          </li>
+          <li className="menu__nav__list__item">
+            <a href="#">Mesas Gamer</a>
+          </li>
+          <li className="menu__nav__list__item">
+            <a href="#">Promoções</a>
+          </li>
+          <li className="menu__nav__list__item">
+            <a href="#">Atendimento</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;

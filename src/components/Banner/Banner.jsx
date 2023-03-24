@@ -26,19 +26,19 @@ const Banner = () => {
       className="banner__slide"
     >
       <SwiperSlide>
-        <img src={Slide1} alt="slide-1" />
+        <img src={ Slide1 } alt="slide-1" />
       </SwiperSlide>
 
       <SwiperSlide>
-        <img src={Slide2} alt="slide-2" />
+        <img src={ Slide2 } alt="slide-2" />
       </SwiperSlide>
 
       <SwiperSlide>
-        <img src={Slide3} alt="slide-3" />
+        <img src={ Slide3 } alt="slide-3" />
       </SwiperSlide>
 
       <SwiperSlide>
-        <img src={Slide4} alt="slide-4" />
+        <img src={ Slide4 } alt="slide-4" />
       </SwiperSlide>
     </Swiper>
   );
