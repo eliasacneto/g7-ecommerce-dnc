@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Footer from "./components/Footer/Footer";
+
 import "./index.scss";
 
 import Home from "./views/Home/Home";
 import Login from "./views/Login/Login";
-import Products from "./views/Products/Products";
+import ProductDetails from "./views/ProductDetails/ProductDetails";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/products",
-    element: <Products />,
+    element: <ProductDetails />,
   },
 ]);
 

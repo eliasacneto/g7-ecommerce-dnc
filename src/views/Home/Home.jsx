@@ -11,9 +11,15 @@ const Home = () => {
       <Banner />
       <section className="section-home">
         <h1>Adicionar listagem de produtos aqui</h1>
-        
-          <Link to={`/`}><button className="dnc-btn">Voltar</button></Link>
-        
+
+        <div className="btn-group">
+          <Link to={`/`}>
+            <button className="dnc-btn">Voltar</button>
+          </Link>
+          <Link to={`/products`}>
+            <button className="dnc-btn">Detalhes do produto</button>
+          </Link>
+        </div>
       </section>
       <Footer />
     </>
