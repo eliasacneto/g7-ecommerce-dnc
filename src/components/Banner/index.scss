@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $black-dnc;
-  width: 100vw;
+  background-color: $dnc-dark-blue;
+  width: 100%;
 }
 
 .swiper {
@@ -13,16 +13,9 @@
   align-items: center;
   justify-content: center;
   width: 1440px;
-  height: 400px;
+  height: 415px;
   
 }
-.swiper-pagination-bullet {
-  background-color: #ff7c17;
-  align-self: center;
-  overflow: hidden;
-}
-
-
 
 .swiper-slide img {
   display: block;
