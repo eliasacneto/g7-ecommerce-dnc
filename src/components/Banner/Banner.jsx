@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import Slide0 from "../../assets/images/banner/banner_original.png";
 import Slide1 from "../../assets/images/banner/banner-1.jpg";
 import Slide2 from "../../assets/images/banner/banner-2.jpg";
 import Slide3 from "../../assets/images/banner/banner-3.jpg";
@@ -26,6 +27,10 @@ const Banner = () => {
       modules={[Autoplay, Pagination]}
       className=""
     >
+      <SwiperSlide>
+        <img src={ Slide0 } alt="slide-0" />
+      </SwiperSlide>
+
       <SwiperSlide>
         <img src={ Slide1 } alt="slide-1" />
       </SwiperSlide>

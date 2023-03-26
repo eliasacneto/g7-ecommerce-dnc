@@ -7,6 +7,7 @@ import "./index.scss";
 import Home from "./views/Home/Home";
 import Login from "./views/Login/Login";
 import ProductDetails from "./views/ProductDetails/ProductDetails";
+import { PRODUCTS_MOCKS } from "./mock/products.mock";
 
 const router = createBrowserRouter([
   {
@@ -15,10 +16,10 @@ const router = createBrowserRouter([
   },
   {
     path: "/home",
-    element: <Home />,
+    element: <Home data={PRODUCTS_MOCKS}/>,
   },
   {
-    path: "/products",
+    path: "/products/:id",
     element: <ProductDetails />,
   },
 ]);
