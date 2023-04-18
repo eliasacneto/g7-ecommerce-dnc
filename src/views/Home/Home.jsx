@@ -11,11 +11,11 @@ const Home = ({ data }) => {
       <Navbar />
       <Banner />
       <section className="section-home">
-      <div className="home__products">
-      {data.map((product) => (
-        <ProductsCard key={product.id} data={product} />
-      ))}
-      </div>
+        <div className="home__card">
+        {data.map((product) => (
+          <ProductsCard key={product.id} data={product} />
+        ))}
+        </div>
       </section>
       <Footer />
     </>
