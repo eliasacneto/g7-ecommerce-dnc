@@ -2,18 +2,20 @@ import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import Banner from "../../components/Banner/Banner";
 import Footer from "../../components/Footer/Footer";
+import ProductsCard from "../../components/ProductsCard/ProductsCard"
 import "./index.scss";
 
-const Home = () => {
+const Home = ({ data }) => {
   return (
     <>
       <Navbar />
       <Banner />
       <section className="section-home">
-        <h1>Adicionar listagem de produtos aqui</h1>
-        
-          <Link to={`/`}><button className="dnc-btn">Voltar</button></Link>
-        
+        <div className="home__card">
+        {data.map((product) => (
+          <ProductsCard key={product.id} data={product} />
+        ))}
+        </div>
       </section>
       <Footer />
     </>

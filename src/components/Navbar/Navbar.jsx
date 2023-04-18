@@ -1,24 +1,26 @@
 import "./index.scss";
 import Logo from "../../assets/images/dnc-logo.png";
 import Cart from "../../assets/images/cart.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="header__menu">
       <div className="menu__search">
-        <img className="logo" src={Logo} alt="dnc-logo" />
+        <Link to={`/home`}>
+          <img className="logo" src={Logo} alt="dnc-logo" />
+        </Link>
 
-
-          <input className="search-bar"
-            type="text"
-            id="search"
-            name="name"
-            placeholder="O que você está procurando?"
-          />
+        <input
+          className="search-bar"
+          type="text"
+          id="search"
+          name="name"
+          placeholder="O que você está procurando?"
+        />
+        <Link to={`/empty-cart`}>
           <img className="cart" src={Cart} alt="carrinho de compras" />
-
-
-
+        </Link>
       </div>
 
       <div className="menu__nav">

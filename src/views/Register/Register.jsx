@@ -1,8 +1,9 @@
 import "./index.scss";
 import RegisterModal from "../../components/RegisterModal/RegisterModal";
-import HeaderMenu from "../../components/HeaderMenu/HeaderMenu";
+
 import Footer from "../../components/Footer/Footer";
 import { useParams } from "react-router-dom";
+import Navbar from "../../components/Navbar/Navbar";
 
 
 const Register = ({ data }) => {
@@ -11,7 +12,7 @@ const Register = ({ data }) => {
 
     return (
         <section className="register">
-            <HeaderMenu />
+            <Navbar />
             <RegisterModal data={ selectedProduct }/>   
             <Footer />
         </section>

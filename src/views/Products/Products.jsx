@@ -1,14 +1,23 @@
-import { Link } from 'react-router-dom'
-import './index.scss'
+import { useParams } from "react-router-dom"
+import ProductDetails from "../../components/ProductDetails/ProductDetails";
 
-const Products = () => {
-    return (
-        <section className="section-products">
-            <h1>We have to develop the Products Page</h1>
-            <button><Link to={`/home`}>Ir para Home</Link></button>
-            <button><Link to={`/`}>Voltar para o Login </Link></button>
-        </section>
-    )
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+
+
+const Products = ({data}) => {
+  const { productId} = useParams();
+  const selectedProduct = data.find((product) => product.id == productId);
+  console.log(selectedProduct)
+
+  return (
+    <>
+      <Navbar />
+      <ProductDetails data={selectedProduct} />
+      <Footer />
+    </>
+  )
 }
 
-export default Products
+export default Products;
