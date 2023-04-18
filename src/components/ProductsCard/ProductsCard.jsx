@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
-import React from "react";
 import "./index.scss";
 
 const ProductsCard = ({ data }) => {
   return (
     <div className="home__card">
-        <div className="home__card--card">
-            <img src={data.imgPath} alt="model" />
-            <div className="home__card--description">
+        <div className="home__card__card">
+            <img className="home__card__img" src={data.imgPath} alt="model" />
+            <div className="home__card__description">
                 <p>{data.title}</p>
                 <Link to={`/products/${data.id}`}>
-                <button className="home__card--button">Ver mais</button>
+                <button className="home__card__button">Ver mais</button>
                 </Link>
             </div>
         </div>
@@ -18,4 +17,4 @@ const ProductsCard = ({ data }) => {
   )
 }
 
-export default ProductsCard
+export default ProductsCard;
