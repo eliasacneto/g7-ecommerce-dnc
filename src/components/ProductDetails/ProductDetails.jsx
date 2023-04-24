@@ -9,7 +9,7 @@ const ProductDetails = ({ data }) => {
         <section className='product-detail'>
         <div className="product-detail__left-side">
             <div className="product-detail__card">
-                <img src={ data.imgPathDetail } alt={ data.title } />
+                <img src={ data.imgPath } alt={ data.title } />
                 <p className='product-detail__card-title'>{ data.title }</p>
             </div>
             <div className="product-detail__description">
