@@ -2,7 +2,7 @@ export const PRODUCTS_MOCKS = [
     {
         id: 1,
         imgPath: "produto_1.png",
-        imgPathDetail: "produto_1.png",
+        imgPathDetail: "../../public/produto_1.png",
         title: "Console Xbox Series X 1TB SSD",
         infoProducts: "Apresentamos o Xbox Series X, nosso console mais rápido e poderoso de todos os tempos. Jogue milhares de títulos de quatro gerações de consoles- todos os jogos têm melhor aparência e são melhor executados no Xbox Series X.",
         price: "R$ 4.274,05",
