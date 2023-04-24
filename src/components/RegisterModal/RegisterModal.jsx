@@ -5,7 +5,7 @@ const RegisterModal = ({ data }) => {
     return (
         <div className="register-modal">
             <div className="register-modal__card-modal">
-                <img src={data.imgPath} alt={data.title} />
+                <img src={data.imgPathDetail} alt={data.title} />
                 <div className="register-modal__product">
                     <div className="register-modal__product-info">
                         <h1>Meu Carrinho</h1>
