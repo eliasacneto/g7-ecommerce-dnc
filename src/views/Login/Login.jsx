@@ -5,6 +5,8 @@ import { useState } from "react";
 import Swal from "sweetalert2";
 import {useNavigate} from 'react-router-dom';
 
+import { IMaskInput } from "react-imask";
+
 
 const Login = () => {
   const [CPF, setCPF] = useState("");
@@ -79,7 +81,20 @@ const Login = () => {
         <form className="login-form" onSubmit={Alert}>
           <label className="label-form">Digite seu CPF:</label>
           <div className="input-form">
-            <input
+
+          <IMaskInput
+          className="input-field"
+          name="cpf"
+          id="cpf"
+          mask="000.000.000-00"
+          placeholder="000.000.000-00"
+          value={CPF}
+          onChange={(e) => {
+            setCPF(e.target.value);
+  }}
+/>
+
+            {/* <input
               className="input-field"
               type="number"
               name="cpf"
@@ -89,7 +104,7 @@ const Login = () => {
               onChange={(e) => {
                 setCPF(e.target.value);
               }}
-            />
+            /> */}
 
             {errors.userCPF && (
               <span className="warning">{errors.userCPF}</span>
