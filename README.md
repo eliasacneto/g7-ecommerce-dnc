@@ -91,7 +91,7 @@ Esse projeto foi desenvolvido por:
 - [ID 84963 - Fabricio Castilhano Bontadini](https://www.github.com/FabricioBontadini)
 - [ID 43198 - Igor Oliveira de Sousa](https://www.github.com/OliverSouw)
 - [ID 2389 - Murilo Moreti Romão](https://www.github.com/MuriloRomao)
-- [ID 71847 - Kleber Coelho](https://www.github.com/@KleberMayC)
+- [ID 71847 - Kleber Coelho](https://www.github.com/KleberMayC)
 
 ## Screenshots
 
