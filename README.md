@@ -53,7 +53,7 @@ Inicie o servidor the server:
 ## Views & Componentes
 
 - <b>Login:</b>
- A view Login é a página inicial, responsável pela autenticação do usuário onde utilizamos o React Router DOM para fazer a navegação entre as páginas do site.
+ A view Login é a página inicial, responsável pela autenticação, utilizamos a biblioteca `react-imask` para adicionar a máscara de CPF no input e a validação com alertas usando o `sweetalert2` para informar o usuário de um possível campo em branco.
 
 - <b>Home:</b>
 A view Home é a página principal do site, contendo a lista dos produtos ofertados, bem como uma estilização de um banner atrativo ao usuário. A view é composta pelos componentes padrões Navbar e Footer e os componentes Banner e ProductsCard. A view Home recebe o parâmetro data e o desestrutura para popular o componente ProductsCard, recebendo os parâmetros de Id e Produto. 
