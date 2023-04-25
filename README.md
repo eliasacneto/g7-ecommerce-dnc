@@ -95,7 +95,7 @@ Esse projeto foi desenvolvido por:
 
 ## Screenshots
 
-<img src="./screenshots/img01.jpg" alt="Login Page"><br>
+<img src="./screenshots/img-login.jpg" alt="Login Page"><br>
 <img src="./screenshots/img02.jpg" alt="Home Page"><br>
 <img src="./screenshots/img03.jpg" alt="Product Details Page"><br>
 <img src="./screenshots/img04.jpg" alt="Cart Modal"><br>
