@@ -85,12 +85,12 @@ Estamos trabalhando na versão responsiva para utilização em dispositivos móv
 
 ## Autores
 Esse projeto foi desenvolvido por:
-- [ID 84664 - Adriano Avelar da Silva](https://www.github.com/)
+- [ID 84664 - Adriano Avelar da Silva](https://www.github.com/Adriano-Avelar)
 - [ID 55224 - Elias Alves de Carvalho Neto](https://www.github.com/netoeac)
-- [ID 83427 - Enrique Santos Bernardo](https://www.github.com/)
+- [ID 83427 - Enrique Santos Bernardo](https://github.com/EnriqueBernardo)
 - [ID 84963 - Fabricio Castilhano Bontadini](https://www.github.com/FabricioBontadini)
 - [ID 43198 - Igor Oliveira de Sousa](https://www.github.com/OliverSouw)
-- [ID 2389 - Murilo Moreti Romão](https://www.github.com/)
+- [ID 2389 - Murilo Moreti Romão](https://www.github.com/MuriloRomao)
 - [ID 71847 - Kleber Coelho](https://www.github.com/@KleberMayC)
 
 ## Screenshots
