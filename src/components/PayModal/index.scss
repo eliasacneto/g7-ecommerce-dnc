@@ -1,10 +1,12 @@
 @use "../../sass/variables" as *;
 
+
+
 .pay-modal {
     background-color: $bg-modal;
     position: absolute;
     width: 100vw;
-    height: 100vh; 
+    height: 100vh;
     top: 0;
     display: flex;
     justify-content: center;
@@ -12,11 +14,11 @@
 
     &__card-modal {
         background-color: $white;
-        width: 1267px;
+        width: 1260px;
         height: 919px;
         box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
         border: none;
-        border-radius: 80px;
+        border-radius: 60px;
         display: flex;
         justify-content: center;
         gap: 80px;
@@ -78,12 +80,43 @@
         margin-bottom: 30px;
         cursor: pointer;
     }
-    &__confirmation-send:hover{
+
+    &__confirmation-send:hover {
         background-color: $dnc-light-blue;
     }
 
     a {
         color: $white;
         text-decoration: none;
+    }
+}
+
+.closeM {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    left: 870px;
+    cursor: pointer;
+    top: 50px;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+    &:before,
+    &:after {
+        content: " ";
+        position: absolute;
+        width: 2.5px;
+        height: 32px;
+        background-color: #000;
+    }
+
+    &:before {
+        transform: rotate(45deg);
+    }
+
+    &:after {
+        transform: rotate(-45deg);
     }
 }

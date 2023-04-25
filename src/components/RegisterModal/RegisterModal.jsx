@@ -5,6 +5,7 @@ const RegisterModal = ({ data }) => {
     return (
         <div className="register-modal">
             <div className="register-modal__card-modal">
+           <Link to={'/home'}><p  className="close"></p></Link> 
                 <img src={data.imgPathDetail} alt={data.title} />
                 <div className="register-modal__product">
                     <div className="register-modal__product-info">

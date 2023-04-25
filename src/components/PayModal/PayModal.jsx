@@ -5,6 +5,8 @@ const PayModal = () => {
     return (
         <div className="pay-modal">
             <div className="pay-modal__card-modal">
+            <Link to={`/home`}><button className="closeM"></button> </Link>
+            
                 <div className="pay-modal__product">
                     <div className="pay-modal__info">
                         <h1>Finalizar Compra:</h1>
