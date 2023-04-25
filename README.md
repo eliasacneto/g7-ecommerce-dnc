@@ -3,7 +3,11 @@
   <img alt="Projeto E-commerce" src="./screenshots/welcome.jpg" width="100%">
 </p>
 
-# Projeto E-commerce: DNC Shop 🛍️ <Tech-01 Grupo07/>
+# 
+<h1 align="center">
+  Projeto E-commerce: DNC Store 🛍️ 
+</h1>
+
 ## Sobre o projeto
 
 Este é um projeto de e-commerce desenvolvido pelos alunos do grupo 07 do curso TECH 1 da [Escola DNC](https://www.escoladnc.com.br/). O objetivo do projeto é criar uma loja online para venda de produtos, relacionados à área de game, criado em [React.JS](https://react.dev/) utilizando o framework [Vite](https://vitejs.dev/).
