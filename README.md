@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img alt="Projeto E-commerce" src="../screenshots/welcome.jpg" width="100%">
+  <img alt="Projeto E-commerce" src="./screenshots/welcome.jpg" width="100%">
 </p>
 # Projeto E-commerce  -  DNC Shop
 ## Tech 01 Grupo 07
